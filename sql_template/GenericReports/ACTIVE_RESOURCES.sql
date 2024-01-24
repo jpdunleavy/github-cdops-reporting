@@ -71,11 +71,15 @@ AS '
         sql_command_insert_wh.execute();
 		sql_command_show_rm.execute();
         sql_command_insert_rm.execute();
-		snowflake.execute({sqlText: ` USE ROLE SYSADMIN;`});
+        snowflake.execute({sqlText: ` USE ROLE CDOPS_ADMIN;`});
+		/* snowflake.execute({sqlText: ` USE ROLE SYSADMIN;`}); */
+        snowflake.execute({sqlText: ` USE DATABASE CDOPS_STATESTORE;`}); 
 		sql_command_show_roles.execute();
         sql_command_insert_roles.execute();
-        snowflake.execute({sqlText: ` USE ROLE SECURITYADMIN;`});
+        /* snowflake.execute({sqlText: ` USE ROLE SECURITYADMIN;`}); */
         sql_command_show_users.execute();
+        /* snowflake.execute({sqlText: ` USE ROLE CDOPS_ADMIN;`}); */
+        /* snowflake.execute({sqlText: ` USE DATABASE CDOPS_STATESTORE;`});  */               
         sql_command_insert_users.execute();
         snowflake.execute({sqlText: ` USE ROLE CDOPS_ADMIN;`});
 

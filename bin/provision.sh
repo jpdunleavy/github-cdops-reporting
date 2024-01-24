@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-. bin/populate-snowflake-properties
+#. bin/populate-snowflake-properties
 
 JAVA_CMD=""
 if [ -z ${JAVA_HOME+""} ];
