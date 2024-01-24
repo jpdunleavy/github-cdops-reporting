@@ -30,7 +30,7 @@
     <include file="sql_template/GenericReports/TASK_HISTORY.sql"/>
     <include file="sql_template/GenericReports/SEARCH_OPTIMIZATION_HISTORY.sql"/>
     <include file="sql_template/GenericReports/SERVERLESS_TASK_HISTORY.sql"/>
-    <include file="sql_template/GenericReports/MEMBER_RESOURCE_MAPPING.sql"/>
+    <!--<include file="sql_template/GenericReports/MEMBER_RESOURCE_MAPPING.sql"/>-->
     <include file="sql_template/GenericReports/ORGANIZATION_USAGE/ORG_USAGE_IN_CURRENCY_DAILY.sql"/>
     <include file="sql_template/GenericReports/ORGANIZATION_USAGE/ORG_USAGE_WAREHOUSE_METERING_HISTORY.sql"/>
     <include file="sql_template/GenericReports/ACTIVE_RESOURCES.sql"/>
